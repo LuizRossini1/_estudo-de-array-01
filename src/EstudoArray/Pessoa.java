@@ -8,8 +8,16 @@
 */
 
 package EstudoArray;
-import java.util.ArrayList;
 
 public class Pessoa {
+    private String nome;
+    private int idade;
 
+    @Override
+    public String toString() {
+        return "Pessoa{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                '}';
+    }
 }
