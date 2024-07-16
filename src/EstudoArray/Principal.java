@@ -12,5 +12,9 @@ public class Principal {
         listaDePessoas.add(pessoa01);
         listaDePessoas.add(pessoa02);
         listaDePessoas.add(pessoa03);
+
+        System.out.println("Tamananho da lista: " +listaDePessoas.size());
+        System.out.println("Primeira pessoa da lista: " +listaDePessoas.get(0));
+        System.out.println(listaDePessoas);
     }
 }
