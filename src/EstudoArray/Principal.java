@@ -15,6 +15,13 @@ public class Principal {
 
         System.out.println("Tamananho da lista: " +listaDePessoas.size());
         System.out.println("Primeira pessoa da lista: " +listaDePessoas.get(0));
+
         System.out.println(listaDePessoas);
+
+        //Ou
+
+        for (int i = 0; i < listaDePessoas.size(); i++) {
+            System.out.println(listaDePessoas.get(i));
+        }
     }
 }
